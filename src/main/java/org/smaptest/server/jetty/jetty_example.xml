@@ -1,0 +1,21 @@
+<Configure id="Server" class="org.mortbay.jetty.Server">
+	<servlet>
+2
+    <servlet-name>commonServlet</servlet-name>
+3
+    <servlet-class> com.javacodegeeks.snippets.enterprise.embeddedjetty.servlet.CommonServlet </servlet-class>
+4
+</servlet>
+5
+     
+6
+<servlet-mapping>
+7
+    <servlet-name>commonServlet</servlet-name>
+8
+    <url-pattern>/common/*</url-pattern>
+9
+</servlet-mapping>
+</servlet>
+
+</Configure>
