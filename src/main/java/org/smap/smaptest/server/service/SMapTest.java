@@ -1,4 +1,4 @@
-package org.smaptest.server.service;
+package org.smap.smaptest.server.service;
 
 import java.util.ArrayList;
 import java.util.List;
